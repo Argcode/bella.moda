@@ -1,0 +1,169 @@
+
+/* Global Style */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: lobster, Ubuntu,sans-serif;
+  font-size: 30px;
+}
+
+.span {
+  font-family: lobster, Ubuntu, sans-serif;
+  font-size: 20px;
+}
+
+body {
+  font-family: arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  /* shortcut way
+  font: 15px/1.5 arial, sans-serif;
+  */
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.button_1 {
+  height: 32px;
+  background: #ff0066;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+
+}
+
+/* Header */
+
+header {
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li {
+  float: left;
+  display: inline-block;
+  padding: 0 20px 0 20px;
+}
+
+header #logo {
+  float: left;
+}
+
+header #logo h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight, .current a {
+  color: #ff0066;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #cccccc;
+  font-weight: bold;
+}
+
+ul img {
+  margin-bottom: 25px;
+  padding-right: 10px;
+  float: right;
+  width: 30px;
+  display: inline-block;
+
+
+}
+
+/* Showcase */
+
+#showcase {
+  min-height: 400px;
+  background: url("../Fotos/FreeGreatPicture.jpg") no-repeat;
+  color: #000;
+  text-align: center;
+}
+
+#showcase h2 {
+  margin-top: 100px;
+  font-size: 50px;
+  margin-bottom: 10px;
+  font-family: arial, Ubuntu, sans-serif;
+  /*font-style: italic; */
+}
+
+#showcase p{
+  font-size: 20px;
+}
+
+/* Newletter */
+
+#newletter {
+  padding: 15px;
+  color: #ffffff;
+  background-color: #35424a;
+}
+
+#newletter h2 {
+  float: left;
+}
+
+#newletter form {
+  float: right;
+  margin-top: 3px;
+}
+
+#newletter input[type="email"]{
+  padding: 4px;
+  height: 20px;
+  width: 250px;
+
+}
+
+/* Footter */
+
+footer .container {
+
+}
+
+footer {
+  padding: 28px;
+  margin-top: 0px;
+  font-size: 20px;
+  font-family: Lobster, Ubuntu, sans-serif;
+  background-color: #e8491d;
+  text-align: center;
+
+}
+
+
+
+}
